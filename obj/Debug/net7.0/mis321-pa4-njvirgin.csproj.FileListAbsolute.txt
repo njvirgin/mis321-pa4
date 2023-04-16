@@ -1,0 +1,15 @@
+C:\Users\nickv\onedrive\documents\mis321\mis321-pa4-njvirgin\bin\Debug\net7.0\mis321-pa4-njvirgin.exe
+C:\Users\nickv\onedrive\documents\mis321\mis321-pa4-njvirgin\bin\Debug\net7.0\mis321-pa4-njvirgin.deps.json
+C:\Users\nickv\onedrive\documents\mis321\mis321-pa4-njvirgin\bin\Debug\net7.0\mis321-pa4-njvirgin.runtimeconfig.json
+C:\Users\nickv\onedrive\documents\mis321\mis321-pa4-njvirgin\bin\Debug\net7.0\mis321-pa4-njvirgin.dll
+C:\Users\nickv\onedrive\documents\mis321\mis321-pa4-njvirgin\bin\Debug\net7.0\mis321-pa4-njvirgin.pdb
+C:\Users\nickv\onedrive\documents\mis321\mis321-pa4-njvirgin\obj\Debug\net7.0\mis321-pa4-njvirgin.csproj.AssemblyReference.cache
+C:\Users\nickv\onedrive\documents\mis321\mis321-pa4-njvirgin\obj\Debug\net7.0\mis321-pa4-njvirgin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nickv\onedrive\documents\mis321\mis321-pa4-njvirgin\obj\Debug\net7.0\mis321-pa4-njvirgin.AssemblyInfoInputs.cache
+C:\Users\nickv\onedrive\documents\mis321\mis321-pa4-njvirgin\obj\Debug\net7.0\mis321-pa4-njvirgin.AssemblyInfo.cs
+C:\Users\nickv\onedrive\documents\mis321\mis321-pa4-njvirgin\obj\Debug\net7.0\mis321-pa4-njvirgin.csproj.CoreCompileInputs.cache
+C:\Users\nickv\onedrive\documents\mis321\mis321-pa4-njvirgin\obj\Debug\net7.0\mis321-pa4-njvirgin.dll
+C:\Users\nickv\onedrive\documents\mis321\mis321-pa4-njvirgin\obj\Debug\net7.0\refint\mis321-pa4-njvirgin.dll
+C:\Users\nickv\onedrive\documents\mis321\mis321-pa4-njvirgin\obj\Debug\net7.0\mis321-pa4-njvirgin.pdb
+C:\Users\nickv\onedrive\documents\mis321\mis321-pa4-njvirgin\obj\Debug\net7.0\mis321-pa4-njvirgin.genruntimeconfig.cache
+C:\Users\nickv\onedrive\documents\mis321\mis321-pa4-njvirgin\obj\Debug\net7.0\ref\mis321-pa4-njvirgin.dll
