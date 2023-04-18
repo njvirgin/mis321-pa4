@@ -33,6 +33,15 @@ static Character NewPlayer(){
         case 3:
             player = new DavyJones(){name = pName, charName = "Davy Jones", maxPower = mp, health = 100, attackStrength = Character.GetAttackStrength(mp), defensivePower = Character.GetDefensivePower(mp)};
         break;
+        case 4:
+            player = new BlackBeard(){name = pName, charName = "Blackbeard", maxPower = mp, health = 100, attackStrength = Character.GetAttackStrength(mp), defensivePower = Character.GetDefensivePower(mp)};
+        break;
+        case 5:
+            player = new ElizabethSwann(){name = pName, charName = "Elizabeth Swann", maxPower = mp, health = 100, attackStrength = Character.GetAttackStrength(mp), defensivePower = Character.GetDefensivePower(mp)};   
+        break;
+        case 6:
+            player = new ArmandoSalazar(){name = pName, charName = "Armando Salazar", maxPower = mp, health = 100, attackStrength = Character.GetAttackStrength(mp), defensivePower = Character.GetDefensivePower(mp)};
+        break;
     }
     return player;
     
@@ -99,6 +108,18 @@ static void Damage(int num, Character p1, Character p2){
             System.Console.WriteLine($"\n{p1.charName}'s attack gets a 20% bonus!");
             typeBonus = 1.2;
         }
+        if(p1.charName == "Blackbeard" && p2.charName == "Elizabeth Swann"){
+            System.Console.WriteLine($"\n{p1.charName}'s attack gets a 20% bonus!");
+            typeBonus = 1.2;
+        }
+        if(p1.charName == "Elizabeth Swann" && p2.charName == "Armando Salazar"){
+            System.Console.WriteLine($"\n{p1.charName}'s attack gets a 20% bonus!");
+            typeBonus = 1.2;
+        }
+        if(p1.charName == "Armando Salazar" && p2.charName == "Blackbeard"){
+            System.Console.WriteLine($"\n{p1.charName}'s attack gets a 20% bonus!");
+            typeBonus = 1.2;
+        }
         System.Threading.Thread.Sleep(3000);
         double damageAmount = ((p1.attackStrength - p2.defensivePower)* typeBonus);
         if(damageAmount > 0){
@@ -119,6 +140,18 @@ static void Damage(int num, Character p1, Character p2){
             typeBonus = 1.2;
         }
         if(p2.charName == "Davy Jones" && p1.charName == "Jack Sparrow"){
+            System.Console.WriteLine($"\n{p2.charName}'s attack gets a 20% bonus!");
+            typeBonus = 1.2;
+        }
+        if(p2.charName == "Blackbeard" && p1.charName == "Elizabeth Swann"){
+            System.Console.WriteLine($"\n{p2.charName}'s attack gets a 20% bonus!");
+            typeBonus = 1.2;
+        }
+        if(p2.charName == "Elizabeth Swann" && p1.charName == "Armando Salazar"){
+            System.Console.WriteLine($"\n{p2.charName}'s attack gets a 20% bonus!");
+            typeBonus = 1.2;
+        }
+        if(p2.charName == "Armando Salazar" && p1.charName == "Blackbeard"){
             System.Console.WriteLine($"\n{p2.charName}'s attack gets a 20% bonus!");
             typeBonus = 1.2;
         }
